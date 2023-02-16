@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('app')
+  res.send('biz-attrition-app')
 })
 
 app.listen(port, () => {
